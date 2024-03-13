@@ -22,17 +22,17 @@ The difference between the approach of performance testing w/ JMeter and profili
 
 Here is how the profiling process help me in identifying and understanding the weak point in my app:
 
-Profiling provides detailed information about the execution flow and resource consumption of my application. 
-By analyzing this data, im able to identify bottlenecks, memory leaks, and inefficient code segments. 
-Profiling tools like IntelliJ Profiler highlight areas of code where improvements can be made, 
+Profiling provides detailed information about the execution flow and resource consumption of my application.
+By analyzing this data, im able to identify bottlenecks, memory leaks, and inefficient code segments.
+Profiling tools like IntelliJ Profiler highlight areas of code where improvements can be made,
 helped me to pinpoint and address the performance bottlenecks.
 
 ---
 
 **3. Do you think IntelliJ Profiler is effective in assisting you to analyze and identify bottlenecks in your application code?**
 
-Yes, Intellij Profiler is very effective in assisting me to analyze and identify bottlenecks in my app code. 
-It offers a rich set of features for profiling, including CPU and memory profiling, thread analysis, and more. 
+Yes, Intellij Profiler is very effective in assisting me to analyze and identify bottlenecks in my app code.
+It offers a rich set of features for profiling, including CPU and memory profiling, thread analysis, and more.
 
 ---
 
@@ -40,8 +40,8 @@ It offers a rich set of features for profiling, including CPU and memory profili
 
 The main challenges i encounter when conducting performance testing and profiling are:
 
-- Do the optimizing in my code to improve the performance.
-- Understanding the profiling result because i have to do some refactoring in my code.
+- Do the optimizing in my code to improve the performance. I tried to use profiling tools such as Intellij Profiler to help me identify bottlenecks and performance issues in my code.
+- Understanding the profiling result because i have to do some refactoring in my code. I tried to make small changes and re-run the profiler, then i analyze the impact so i can understand the effects of each modifications that i made and i can prevent overwhelming changes.
 
 ---
 
@@ -65,8 +65,8 @@ Some main benefits i gained from using Intellij Profiler for profiling my app co
 
 How i handle situations where the results from profiling w/ Intellij Profiler aren't entirely consistent w/ findings from performance testing using JMeter:
 
-I have to investigate the differences and understand the context of each tool's output. 
-I think it's possible that JMeter and Profiler focus on different aspects of performance. 
+I have to investigate the differences and understand the context of each tool's output.
+I think it's possible that JMeter and Profiler focus on different aspects of performance.
 I will try to run the tests multiple times, adjusting configurations, and validating results.
 
 ---
@@ -75,7 +75,7 @@ I will try to run the tests multiple times, adjusting configurations, and valida
 
 Strategies I implemented in optimizing app code after analyzing results from performance testing and profiling and how i ensure the changes i make won't affect the app's functionality:
 
-- In my `findStudentWithHighestGPA` method, I tried to enhance the efficiency by implemented the query. 
+- In my `findStudentWithHighestGPA` method, I tried to enhance the efficiency by implemented the query.
 - In my `getAllStudentsWithCourses` method, I tried to reduce the database calls by eliminating them. With using the `studentCourseRepository.findAll()`.
 - I tried to do the profiling. With that, i will be able to identify which part of my code that took most time and resources. So, i have to do the performance analysis and do the performance measurements.
 
