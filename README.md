@@ -40,8 +40,8 @@ It offers a rich set of features for profiling, including CPU and memory profili
 
 The main challenges i encounter when conducting performance testing and profiling are:
 
-- Do the optimizing in my code to improve the performance.
-- Understanding the profiling result because i have to do some refactoring in my code.
+- Do the optimizing in my code to improve the performance. I tried to use profiling tools such as Intellij Profiler to help me identify bottlenecks and performance issues in my code.
+- Understanding the profiling result because i have to do some refactoring in my code. I tried to make small changes and re-run the profiler, then i analyze the impact so i can understand the effects of each modifications that i made and i can prevent overwhelming changes.
 
 ---
 
